@@ -1,0 +1,23 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+
+body {
+    background-color: #f8f9fc;
+    font-family: Nunito,-apple-system,BlinkMacSystemFont,Roboto,"Segoe UI","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.module.selected {
+    background-color: #36b9cc;
+    color: #fff;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.2);
+    transform : scale(1.03);
+    transition: all 0.2s ease;
+
+}
